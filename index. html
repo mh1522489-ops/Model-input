@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Page Title</title>
+    </head>
+    <body>
+        <form >
+          <input type="text" placeholder="first name" required>
+             <input type="text" placeholder="last name" required>
+            <input type="text" placeholder="name" required>
+    <input type="email" placeholder="email" required>
+    <input type="password" placeholder="password" required>
+     <button>sent</button>
+     </form>
+   <style>
+     body {
+    background: linear-gradient(to bottom right, yellow, pink);
+    height:100%;
+    align-items:center;
+    align-content:center;
+    flex-wrap:wrap;
+}
+form{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    align-content:center;
+    flex-wrap:wrap;
+    height:100vh;
+    gap:5px;
+}
+form input{
+    width:250px;
+    border:none;
+    outline:none;
+    gap:5px;
+    padding:5px;
+    background-color:skyblue;
+    flex-basis:1;
+    border-radius:3px;
+    transition:all .5s;
+    
+}
+button{
+    width:250px;
+    flex-basis:1;
+    border-radius:5px;
+    border:none ;
+    background-color:pink;
+}
+input:hover{
+    transform:skewx(5deg);
+    rotate:1deg;
+    background:linear-gradient(blue,white);
+}  
+       
+       
+       
+       
+       
+   </style>
+   
+   
+   
+    </body>
+</html>
